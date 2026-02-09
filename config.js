@@ -1,0 +1,7 @@
+export const homePageUrl = 'https://chat.ssh.net/#/home'
+export const title = 'Element' 
+export const roleTextBox = 'textbox'
+export const roleButton = 'button'
+export const roleLink = 'Link'
+export const roleOption = 'option'
+

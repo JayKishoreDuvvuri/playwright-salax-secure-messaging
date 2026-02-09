@@ -1,0 +1,30 @@
+{
+	"name": "playwright-secure-messaging-app",
+	"version": "1.0.0",
+	"description": "Test Automation of Secure Messaging Web client using Playwright",
+	"main": "index.js",
+	"scripts": {
+		"test": "npx playwright test",
+		"test:chrome": "npx playwright test --project=Chrome",
+		"test:edge": "npx playwright test --project=Edge --reporter=list",
+		"test:firefox": "npx playwright test --project=Firefox",
+		"test:safari": "npx playwright test --project=Safari --reporter=list",
+		"test:one": "npx playwright test TC_01_twoUsersChat.test.js --headed --project=Chrome",
+		"test:record": "npx playwright codegen",
+		"html-report": "npx playwright test --reporter=html && npx playwright show-report",
+		"show-trace": "npx playwright show-trace"
+	},
+	"keywords": [
+		"Playwright",
+		"Secure Messaging App",
+		"Test Automation",
+		"JavaScript"
+	],
+	"author": "Jay Kishore Duvvuri",
+	"license": "ISC",
+	"dependencies": {
+		"@playwright/test": "^1.58.2",
+		"fs": "^0.0.1-security",
+		"prettier": "^3.8.1"
+	}
+}

@@ -130,7 +130,6 @@ export default class BasePage {
 			this.page.waitForEvent('filechooser'),
 			trigger.click()
 		])
-
 		await chooser.setFiles(files)
 	}
 }

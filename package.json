@@ -1,7 +1,7 @@
 {
 	"name": "playwright-secure-messaging-app",
 	"version": "1.0.0",
-	"description": "Test Automation of Secure Messaging Web client using Playwright",
+	"description": "Test Automation of Salax Secure Messaging Web client using Playwright",
 	"main": "index.js",
 	"scripts": {
 		"test": "npx playwright test",
@@ -16,7 +16,7 @@
 	},
 	"keywords": [
 		"Playwright",
-		"Secure Messaging App",
+		"Salax Secure Messaging App",
 		"Test Automation",
 		"JavaScript"
 	],

@@ -102,7 +102,7 @@ npx playwright show-report
 #### GitHub Actions
 
 ```bash
-Pipelines: https://github.com/JayKishoreDuvvuri/playwright-salax-secure-messaging.git/actions
+Pipelines: https://github.com/JayKishoreDuvvuri/playwright-salax-secure-messaging/actions
 ```
 
 #### Key Design Decisions
